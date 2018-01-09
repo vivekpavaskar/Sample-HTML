@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<style type="text/css">
+		.content{
+			text-align: justify;
+			border:4px;
+			border-color: black;
+			color: blue;
+		}
+		article{
+			border: 4px;
+			border-color: black;
+			display: table;
+			width: 700px;
+			height: 200px;
+			background-color: yellow;
+
+
+		}
+		article img {
+			float: right;
+		}
+	</style>
 	<title>Table</title>
 </head>
 <body>
+
 	<table border="black" cellpadding="10" cellspacing="5" bgcolor="yellow" contenteditable="true">
+		<caption> Internship in Companies</caption>
 		<tr>
 			<th>Company</th>
 			<th>Available</th>
@@ -26,6 +49,16 @@
 			<td>2</td>
 		</tr>
 	</table>
+	<img src="images/download.png" usemap="int">
+<map name="int">
+	<area shape="rect" coords="92,42,164,115" href="samplehtml.html">
+</map>
 
+<article >
+	<img src="images/intern1.png" height="200" width="200">
+	<p class="content">this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. </p>
+</article>
+
+<iframe src="samplehtml.html" height="300" width="1000"></iframe>
 </body>
 </html>
