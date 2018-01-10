@@ -2,27 +2,27 @@
 <html>
 <head>
 	<style type="text/css">
-		.content{
-			text-align: justify;
-			border:4px;
-			border-color: black;
-			color: blue;
-		}
-		article{
-			border: 4px;
-			border-color: black;
-			display: table;
-			width: 700px;
-			height: 200px;
-			background-color: yellow;
+	.content{
+		text-align: justify;
+		border:4px;
+		border-color: black;
+		color: blue;
+	}
+	article{
+		border: 4px;
+		border-color: black;
+		display: table;
+		width: 700px;
+		height: 200px;
+		background-color: yellow;
 
 
-		}
-		article img {
-			float: right;
-		}
-	</style>
-	<title>Table</title>
+	}
+	article img {
+		float: right;
+	}
+</style>
+<title>Table</title>
 </head>
 <body>
 
@@ -50,42 +50,85 @@
 		</tr>
 	</table>
 	<img src="images/download.png" usemap="#int">
-<map name="int">
-	<area shape="rect" coords="92,42,164,115" href="samplehtml.html">
-</map>
+	<map name="int">
+		<area shape="rect" coords="92,42,164,115" href="samplehtml.html">
+	</map>
 
-<article >
-	<img src="images/intern1.png" height="200" width="200">
-	<p class="content">this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. </p>
-</article>
+	<article >
+		<img src="images/intern1.png" height="200" width="200">
+		<p class="content">this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. this is a photo. </p>
+	</article>
 
-<iframe src="samplehtml.html" height="300" width="1000"></iframe>
-<frameset cols="33%,33%,33%" rows="500px">
-	<frame src="samplehtml.htm">
-	<frame src="requirementTable.htm">
-	<frame src="Table.htm">
-</frameset>
+	<iframe src="samplehtml.html" height="300" width="1000"></iframe>
+	<frameset cols="33%,33%,33%" rows="500px">
+		<frame src="samplehtml.htm">
+		<frame src="requirementTable.htm">
+		<frame src="Table.htm">
+	</frameset>
 
-<audio controls="">
-	<source src="audio/releaseme.mp3" type="audio/mp3">
-</audio>
+	<audio controls="">
+		<source src="audio/releaseme.mp3" type="audio/mp3">
+		</audio>
 
-<video controls="">
-	<source src="video/shelter.mp4" type="video/mp4">
-</video>
-<br>
-<br>
-<br>
+		<video controls="">
+			<source src="video/shelter.mp4" type="video/mp4">
+			</video>
+			<br>
+			<br>
+			<br>
 
 
-<fieldset>
-			<legend><h4>For any queries/feedback:</h4></legend>
-			<form>
-				<label>Your Email:</label>
-				<input type="text"><br>
-				<label>Comment   :</label>
-				<textarea></textarea>
+			<fieldset>
+				<legend><h4>For any queries/feedback:</h4></legend>
+				<form>
+					<label>Your Email:</label>
+					<input type="text"><br>
+					<label>Comment   :</label>
+					<textarea></textarea>
 
-			</form></fieldset>
-</body>
-</html>
+				</form></fieldset>
+				<canvas id="myCanvas">Your browser does not support the HTML5 canvas tag.</canvas>
+				<script>
+
+					var c = document.getElementById("myCanvas");
+					var ctx = c.getContext("2d");
+
+					ctx.fillStyle = "#000000";
+					ctx.fillRect(0, 0, 80, 100);
+					ctx.fillStyle="#FF0000";
+					ctx.fillRect(5,5,70,90);
+
+				</script><br>
+
+
+
+
+				<svg height="600" width="600">
+
+					<rect width="100" height="100" x="10" y="10" rx="20" ry="20" style="stroke:green;stroke-width:10;fill:red;"><text x="50" y="50">Rectangle</text>
+					</rect>
+					<circle cx="150" cy="50" r="20" stroke="blue" stroke-width="3" fill="yellow">
+						<text>Circle</text>
+					</circle>
+
+
+				</svg><br>
+				<svg height="600" width="600">
+					<polygon points="100,100 300,100 125,250 200,20 250,250" style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;">
+					</polygon></svg>
+					<svg height="500" width="500">
+						<defs>
+							<linearGradient id="grad1" x1="50%" y1="%" x2="100%" y2="50%">
+								<stop offset="0%"
+								style="stop-color:rgb(150,255,0);stop-opacity:1" />
+								<stop offset="100%"
+								style="stop-color:rgb(255,150,150);stop-opacity:1" />
+							</linearGradient>
+						</defs>
+						<ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+						<text fill="#000000" font-size="45" font-family="Verdana"
+						x="50" y="86">SVG</text>
+						Sorry, your browser does not support inline SVG.
+					</svg>
+				</body>
+				</html>
