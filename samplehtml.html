@@ -10,6 +10,7 @@
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<title>Sample HTML</title>
+		<link rel="icon" type="images" href="images/graduation.ico">
 	</head>
 	<body style="background-color:  lightgreen" background="images\back.jpg">
 		<div class=container>
@@ -17,7 +18,7 @@
 				<div class="row">
 					<div class="col-md-3">
 
-						<a href="samplehtml.html"><img src="images\download.png" class="img-circle" alt="sample html image" ></a>
+						<a href="samplehtml.html"><img src="images\download.png" class="img-circle img-responsive" alt="sample html image" ></a>
 					</div>
 					<div class="col-md-9 " >
 						<h1 style="margin-left: 50px">Application form for Internship</h1>
@@ -64,14 +65,33 @@
 			<fieldset>
 			<h4>For any queries/feedback:</h4>
 			<form>
-				<label>Your Email:</label>
-				<input type="text"><br>
-				<label>Comment   :</label>
-				<textarea></textarea>
+				<label>Your Email&nbsp;:</label>
+				<input type="text" size="19" required><br>
+				<label>&nbsp;Password&nbsp;&nbsp;:</label>
+				<input type="password" size="19" required><br>
+				<label>Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+				<input type="radio" name="gender" required>Male
+				<input type="radio" name="gender" required>Female
+				<input type="radio" name="gender" required>Others<br>
+				<label>Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+				<input type="datetime-local" name="today" required><br>
+				<label>Region&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+				<select required>
+					<option>Select</option>
+					<option>North</option>
+					<option>South</option>
+					<option>East</option>
+					<option>West</option>
+				</select><br>
+				<label>Comment&nbsp;&nbsp;&nbsp;:</label>
+				<textarea cols="21"required></textarea><br>
+				<label>Subscribe for newsletters:</label>
+				<input type="checkbox" name="newsletters"><br>
+				<input type="submit" style="margin-left: 150px">
 
 			</form></fieldset>
-		</div></div>
-		<hr>
+		</div><hr>
+		<div style="background-color: black" class="row">
 		<footer style="background-color: black;">
 			<center>
 				<font color="white" >
@@ -84,5 +104,7 @@
 				</font>
 			</center>
 		</footer>
+	</div></div>
+		
 	</body>
 	</html>
