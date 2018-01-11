@@ -9,20 +9,30 @@
 <body>
 	<header>
 		<center><h1 style="color: white;">Contact Us Here</h1></center>
-		<span style="font-size: 30px;cursor: pointer;color: white;" onclick="openNav()">&#9776;Menu</span>
-		<script>
-			openNav(){
-				document.getElementById("mysidebar").style.width="250px";
-			}
-			closeNav(){
-				document.getElementById("mysidebar").style.width="0px";
-			}
-		</script>
-	</header>
-	<div id="mysidebar" class="sidenav">
-		<a href="javascript:void(0)" onclick="closeNav()" class="closebtn">$times;</a>
-		<a href="#">About</a>
-	</div>
+	
+	<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="samplehtml.html">Home</a>
+  <a href="requirementTable.html">Table</a>
+  <a href="Table.html">Other</a>
+  <a href="https://github.com/vivekpavaskar">Github</a>
+</div>
+
+
+<span style="font-size:30px;cursor:pointer;color: white;" onclick="openNav()">&#9776; Menu</span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+</header>
+
 	<aside style="float: right;">
 		<h3>Internship available for:</h3>
 		<ul>
