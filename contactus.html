@@ -9,7 +9,20 @@
 <body>
 	<header>
 		<center><h1 style="color: white;">Contact Us Here</h1></center>
+		<span style="font-size: 30px;cursor: pointer;color: white;" onclick="openNav()">&#9776;Menu</span>
+		<script>
+			openNav(){
+				document.getElementById("mysidebar").style.width="250px";
+			}
+			closeNav(){
+				document.getElementById("mysidebar").style.width="0px";
+			}
+		</script>
 	</header>
+	<div id="mysidebar" class="sidenav">
+		<a href="javascript:void(0)" onclick="closeNav()" class="closebtn">$times;</a>
+		<a href="#">About</a>
+	</div>
 	<aside style="float: right;">
 		<h3>Internship available for:</h3>
 		<ul>
@@ -37,7 +50,7 @@
 				<input class="login" type="password" name="pass" placeholder="Password"><br>
 				<input class="login" type="Name" name="name" placeholder="Name"><br>
 				<input class="login" type="text" name="phone" placeholder="Mobile number"><br>
-				<button class="login" type="button" style="margin-left: 60px">Login</button>
+				<button class="login" type="button" style="margin-left: 60px">Signup</button>
 			</form>
 			<hr>
 			<h6>Already have an account:<a href="#" onclick="$('#sig').hide(); $('#log').show()";>Login here</a></h6>
