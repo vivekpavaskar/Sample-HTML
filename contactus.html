@@ -3,6 +3,8 @@
 <head>
 	<title>Contact Us</title>
 	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<header>
@@ -18,7 +20,7 @@
 		</ul>
 	</aside>
 	<aside style="float: left;">
-		<div id="log" >
+		<div id="log" style="margin-top: 50px">
 			<h3>Login Here:</h3>
 			<form>
 				<input class="login" type="email" name="email" placeholder="Email"><br>
@@ -28,11 +30,13 @@
 			<hr>
 			<h6>Dont have an account:<a href="#" onclick="$('#log').hide(); $('#sig').show();">Sign up here</a></h6>
 		</div>
-		<div id="sig" style="display: none">
+		<div id="sig" style="display: none;margin-top: 50px;">
 			<h3>Signup Here:</h3>
 			<form>
 				<input class="login" type="email" name="email" placeholder="Email"><br>
 				<input class="login" type="password" name="pass" placeholder="Password"><br>
+				<input class="login" type="Name" name="name" placeholder="Name"><br>
+				<input class="login" type="text" name="phone" placeholder="Mobile number"><br>
 				<button class="login" type="button" style="margin-left: 60px">Login</button>
 			</form>
 			<hr>
@@ -49,7 +53,7 @@
 			<input type="text" name="name" placeholder="Name" class="feedback" width="500" required><br>
 			<input type="text" name="phone" placeholder="Phone" class="feedback" required><br>
 			<textarea placeholder="Queries" class="feedback"></textarea><br>
-			<input type="submit" onclick="alert('Form Submitted')" style="margin-left: 20px;color:white;background-color: green">
+			<input type="submit"  style="margin-left: 20px;color:white;background-color: green">
 		</form>
 	</center>
 	<br>
