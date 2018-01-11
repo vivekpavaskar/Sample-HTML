@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo Nav</title>
+</head>
+<style>
+	.sidenav{
+		background-color: black;
+		overflow-x: hidden;
+		z-index: 1;
+		height: 100%;
+		width: 0;
+		transition: 3s;
+		position: fixed;	
+
+	}
+
+	.sidenav a{
+		
+		text-decoration: none;
+		color: grey;
+		font-size: 50px;
+		display: block;
+	}
+	
+	.sidenav .closebtn{
+		position: absolute;
+		top: 0;
+		right: 25px;
+	}
+
+	.sidenav a:hover{
+		color: white;
+	}
+</style>
+<body>
+	<div class="sidenav" id="nav">
+		<a href="#" class="closebtn" onclick="closenav();">X</a>
+		<a href="#">sadf</a>
+		<a href="#">sadf</a>
+		<a href="#">sadf</a>
+		<a href="#">sadf</a>
+	</div>
+	<span style="cursor: pointer;" onclick="opennav()">menu</span>	
+
+	<script>
+		function opennav() {
+			document.getElementById("nav").style.width="250px";
+		}
+		function closenav() {
+			document.getElementById("nav").style.width="0";
+		}
+	</script>
+
+</body>
+</html>
