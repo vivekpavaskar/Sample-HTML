@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+	<header>
+		<center><h1 style="color: white;">Contact Us Here</h1></center>
+	</header>
+	<aside style="float: right;">
+		<h3>Internship available for:</h3>
+		<ul>
+			<li>Wep Development</li>
+			<li>Androud App Development</li>
+			<li>Backend Database Management</li>
+			<li>Marketing</li>
+		</ul>
+	</aside>
+	<aside style="float: left;">
+		<div id="log" >
+			<h3>Login Here:</h3>
+			<form>
+				<input class="login" type="email" name="email" placeholder="Email"><br>
+				<input class="login" type="password" name="pass" placeholder="Password"><br>
+				<button class="login" type="button" style="margin-left: 60px">Login</button>
+			</form>
+			<hr>
+			<h6>Dont have an account:<a href="#" onclick="$('#log').hide(); $('#sig').show();">Sign up here</a></h6>
+		</div>
+		<div id="sig" style="display: none">
+			<h3>Signup Here:</h3>
+			<form>
+				<input class="login" type="email" name="email" placeholder="Email"><br>
+				<input class="login" type="password" name="pass" placeholder="Password"><br>
+				<button class="login" type="button" style="margin-left: 60px">Login</button>
+			</form>
+			<hr>
+			<h6>Already have an account:<a href="#" onclick="$('#sig').hide(); $('#log').show()";>Login here</a></h6>
+		</div>
+	</aside>
+	<br>
+	<center>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3838.3905034009586!2d74.50595558017952!3d15.836060231970613!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3b74b44f5b4bc093!2sCareer+Nest+HRC!5e0!3m2!1sen!2sin!4v1515652172008" width="800" height="300" frameborder="0" style="border:0" class="map" allowfullscreen></iframe>
+		
+		<h2 style="color: white;margin: 5px;">Enter your details here:</h2>
+		<form>
+			<input type="email" name="email" placeholder="Email" class="feedback" required><br>
+			<input type="text" name="name" placeholder="Name" class="feedback" width="500" required><br>
+			<input type="text" name="phone" placeholder="Phone" class="feedback" required><br>
+			<textarea placeholder="Queries" class="feedback"></textarea><br>
+			<input type="submit" onclick="alert('Form Submitted')" style="margin-left: 20px;color:white;background-color: green">
+		</form>
+	</center>
+	<br>
+	<div>
+		<footer>
+			<h4 style="color: white;">Our Social networking site:</h4>
+			<a href="https://www.google.co.in/?gfe_rd=cr&dcr=0&ei=BhNXWtiABI7EqAGV1JNg" target="_blank"><img src="images/gplus.png" class="logo"></a>
+			<a href="https://www.linkedin.com/in/widehub-careernest-617258154/" target="_blank"><img src="images/linkedin-icon.png" class="logo"></a>
+			<a href="https://www.facebook.com/widehub/" target="_blank"><img src="images/logo-facebook.png" class="logo"></a>
+		</footer>
+	</div>
+</body>
+</html>

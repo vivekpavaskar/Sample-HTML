@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>colleges in bgm</title>
+  <link rel="shortcut icon" href="C:\Users\HP\Desktop\html cn\education.png" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  <meta name="keywords" content="footer, basic, centered, links" />
+  <link rel="stylesheet" href="css/footer-basic-centered.css">
+  <link rel="stylesheet" href="coll.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+</head>
+
+<body>
+<style>
+body{
+	background-size: 100%;
+	 background: url(school-powerpoint-background-9365.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	}
+	
+	
+</style>
+
+
+<div class="container text-center ">
+  <h1><font color="#154360 " size="6" style="Times New Roman">Colleges in Belagavi City</font></h1>        
+</div>
+<br><br><br>
+
+  
+  <nav class="navbar navbar-default" id="colorful-nav">
+  
+        <div class="container">
+            <div class="navbar-header">
+			
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+			
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="home"><a href="C:\Users\HP\Desktop\html cn\coll.html"><span class="glyphicon glyphicon-home"></span><h5>HOME</h5></a></li>
+                    <li class="career"><a href="C:\Users\HP\Desktop\html cn\option.html"><span class="glyphicon glyphicon-pencil"></span><h5>CAREER OPTIONS</h5></a></li>
+                    <li class="colleges"><a href="C:\Users\HP\Desktop\html cn\collage.html"><span class="glyphicon glyphicon-stats"></span><h5>COLLEGES</h5></a></li>
+                    <li class="uni"><a href="C:\Users\HP\Desktop\html cn\uni.html"><span class="glyphicon glyphicon-list-alt"></span><h5>UNIVERSITIES</h5></a></li>
+                    <li class="search"><a href="#"><span class="glyphicon glyphicon-search"></span><h5>SEARCH</h5></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<br><br><br>
+
+<div id="leftbar">
+<section class="wrap">
+    
+</section>
+
+
+<aside>
+	<h2><font face="verdana" style="margin-left:50px; color:white;"> Login</font></h2>
+	    <div class="container" style="float:left;">    
+		
+        <div id="loginbox" style="margin-top:20px;" class="mainbox col-md-3 col-sm-6 col-sm-offset-0">                    
+            <div class="panel panel-info" >
+                    <div class="panel-heading">
+                        <div class="panel-title">Sign In</div>
+                        <div style="float:right; font-size: 80%; position: relative; top:-10px"><a href="#">Forgot password?</a></div>
+                    </div>     
+					
+                    <div style="padding-top:30px" class="panel-body" >
+
+                        <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
+                            
+                        <form id="loginform" class="form-horizontal" role="form">
+                                    
+                            <div style="margin-bottom: 25px" class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                        <input id="login-username" type="text" class="form-control" name="username" value="" placeholder="username or email">                                        
+                                    </div>
+                                
+                            <div style="margin-bottom: 25px" class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                        <input id="login-password" type="password" class="form-control" name="password" placeholder="password">
+                                    </div>
+                                    
+
+                                
+                            <div class="input-group">
+                                      <div class="checkbox">
+                                        <label>
+                                          <input id="login-remember" type="checkbox" name="remember" value="1"> Remember me
+                                        </label>
+                                      </div>
+                                    </div>
+
+
+                                <div style="margin-top:10px" class="form-group">
+                                    <!-- Button -->
+
+                                    <div class="col-sm-12 controls">
+                                      <a id="btn-login" href="#" class="btn btn-success">Login  </a>
+                                      <a id="btn-fblogin" href="#" class="btn btn-primary">Login with Facebook</a>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <div class="col-md-12 control">
+                                        <div style="border-top: 1px solid#888; padding-top:15px; font-size:85%" >
+                                            Don't have an account! 
+                                        <a href="#" onClick="$('#loginbox').hide(); $('#signupbox').show()">
+                                            Sign Up Here
+                                        </a>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </form>     
+
+
+
+                        </div>                     
+                    </div>  
+        </div>
+        <div id="signupbox" style="display:none; margin-top:50px" class="mainbox col-md-3  col-sm-8 col-sm-offset-0">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <div class="panel-title">Sign Up</div>
+                            <div style="float:right; font-size: 85%; position: relative; top:-10px"><a id="signinlink" href="#" onclick="$('#signupbox').hide(); $('#loginbox').show()">Sign In</a></div>
+                        </div>  
+                        <div class="panel-body" >
+                            <form id="signupform" class="form-horizontal" role="form">
+                                
+                                <div id="signupalert" style="display:none" class="alert alert-danger">
+                                    <p>Error:</p>
+                                    <span></span>
+                                </div>
+                                    
+                                
+                                  
+                                <div class="form-group">
+                                    <label for="email" class="col-md-3 control-label">Email</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" name="email" placeholder="Email Address">
+                                    </div>
+                                </div>
+                                    
+                                <div class="form-group">
+                                    <label for="firstname" class="col-md-3 control-label">First Name</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" name="firstname" placeholder="First Name">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastname" class="col-md-3 control-label">Last Name</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" name="lastname" placeholder="Last Name">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password" class="col-md-3 control-label">Pass word</label>
+                                    <div class="col-md-9">
+                                        <input type="password" class="form-control" name="passwd" placeholder="Password">
+                                    </div>
+                                </div>
+                                    
+                                <div class="form-group">
+                                    <label for="icode" class="col-md-3 control-label">Invitation Code</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" name="icode" placeholder="">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <!-- Button -->                                        
+                                    <div class="col-md-offset-3 col-md-9">
+                                        <button id="btn-signup" type="button" class="btn btn-info"><i class="icon-hand-right"></i> &nbsp Sign Up</button>
+                                        <span style="margin-left:8px;">or</span>  
+                                    </div>
+                                </div>
+                                
+                                <div style="border-top: 1px solid #999; padding-top:20px"  class="form-group">
+                                    
+                                    <div class="col-xs-6 .col-sm-3">
+                                        <button id="btn-fbsignup" type="button" class="btn btn-primary"><i class="icon-facebook"></i>   Sign Up with Facebook</button>
+                                    </div>                                           
+                                        
+                                </div>
+                                
+                                
+                                
+                            </form>
+                         </div>
+                    </div>
+
+               
+               
+                
+         </div> 
+    </div>
+    
+	
+</div>
+
+</aside>
+
+<aside class="sidebar">
+    <h2><b><font color="#E74C3C">Latest News</font></b></h2>
+    <ul>
+	
+        <li>
+		<a href="C:\Users\HP\Desktop\html cn\news.html" target="_blank" ><font color="#34495E">IIMA to Launch RTE Resource Centre</font></a>
+		</li>
+        <li> 
+		<a href="C:\Users\HP\Desktop\html cn\news1.html" target="_blank" ><font color="#34495E">Centre of Excellence Established at PSG College of Technology</font></a>
+		</li>
+		 <li>
+		<a href="C:\Users\HP\Desktop\html cn\news2.html" target="_blank" ><font color="#34495E">UGCReleases List of Fake Universities in India</font></a>
+		</li>
+		 <li>
+		<a href="C:\Users\HP\Desktop\html cn\news3.html"  target="_blank" ><font color="#34495E">SunstoneBusiness School Launches PGPM for Working Professionals in Tier 2 & 3 Cities</font></a>
+		</li>
+    </ul>
+	
+</aside>
+
+<br><br><br>
+<article>
+<img src="C:\Users\HP\Desktop\html cn\education.png">
+        <p class="content">Education in India is seen as one of the ways to upward social mobility. Good education is seen as a stepping stone to a high flying career. Education System in India currently represents a great paradox. On the one hand we have IIMs & IITs that rank among the best institutes in the world and on the other hand there are number of schools in the country that don't even have the basic infrastructure. Even after more than 50 years after independence we are far away from the goal of universal literacy. But on a positive note, Indian professionals are considered among the best in the world are in great demand. This signifies the inherent strength of Indian education system.
+		
+		</p></article>
+
+		<br>
+		
+<article>
+        <p class="content">The Educational structure in India which operates at all conceivable levels from pre-school to post doctoral is of monumental proportions. According to a World Bank report there are more than 7,40,000 formal schools; more than 3.6 million teachers are working on full time basis; there are more than 175 Universities offering under graduate and post graduate courses and about 6000 colleges affiliated to these universities.
+		
+		</p></article>
+		
+		<br>
+		
+		<article>
+        <p class="content">The educational structure in India is generally referred to as the Ten + Two + Three (10+2+3) pattern. The first ten years provide undifferentiated general education for all students. The +2 stage, also known as the higher secondary or senior secondary, provides for differentiation into academic and vocational streams and marks the end of school education. In +3 stage, which involves college education, the student goes for higher studies in his chosen field of subject.This is a comprehensive website on education in India. It gives detailed information on education and career options in India.
+		</p>
+		</article>
+		<br><br><br>
+		
+		
+<a href="C:\Users\HP\Desktop\html cn\contact.html" target="_blank">
+<img src = "C:\Users\HP\Desktop\html cn\contactus.png" alt = "contact"  height="200" width="250" align="right"/></a>
+		
+		<br><br><br><br><br>
+		
+ <a href="https://www.facebook.com" target="_new">
+ <img src="C:\Users\HP\Desktop\html cn\6-2-facebook-png-hd.png" width="50" height="50"></a>
+ <a href="https://www.linkedin.com/uas/login" target="_new">
+ <img src="C:\Users\HP\Desktop\html cn\a69848bc14c13.png" width="50" height="50"></a>
+ <a href="https://accounts.google.com" target="_new">
+ <img src="C:\Users\HP\Desktop\html cn\175x175bb.png" width="50" height="50"></a>
+  <a href="https://twitter.com" target="_new">
+ <img src="C:\Users\HP\Desktop\html cn\Twitter--File-180x180.png" width="50" height="50"></a>
+  <a href="https://www.youtube.com/" target="_new">
+ <img src="C:\Users\HP\Desktop\html cn\Youtube-PNG-HD-180x180.png" width="50" height="50"></a>
+ <br><br><br><br>
+		<footer>Copyright &copy; Innovative Education</footer>
+		
+		
+</body>
+</html>
+

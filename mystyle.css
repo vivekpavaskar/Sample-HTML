@@ -1,0 +1,43 @@
+.map{
+	max-width: 800px;
+	width: 100%;
+}
+
+footer{
+	background-color: black;
+}
+
+.logo{
+	height: 50px;
+	width: 50px;
+	margin: 5px;
+}
+
+.feedback{
+	
+	border-color: darkgrey;
+	border-width: 2px;
+	border-radius: 4px;
+	max-width: 500px;
+	width: 100%;
+	margin: 5px;
+}
+
+.login{
+	margin: 5px;
+	background-color: white;
+
+}
+
+body{
+	background: linear-gradient(black,white);
+
+}
+
+aside{
+	background-color: lightgrey;
+	padding: 5px;
+	opacity: 0.6;
+	width: 200px;
+	height: 500px;
+}
