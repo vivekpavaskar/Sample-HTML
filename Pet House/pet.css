@@ -53,3 +53,12 @@
 		float: right;
 		width: 400px;
 	}
+
+	footer{
+		background-color: black;
+		color: white;
+	}
+
+	body{
+		display: block;
+	}
