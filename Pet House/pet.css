@@ -1,0 +1,55 @@
+.icons{
+		margin-top: 30px;
+		margin-left: 300px;
+		margin-bottom: 10px;
+		height: 200px;
+	}
+	.heading{
+		top: 25px;
+		right: 500px; 
+		position: absolute;
+		font-size: 90px;	
+	}
+	nav{
+		background-color: black;
+		color: white;
+	}
+	.navbtn a{
+		margin: 0px;
+		padding: 0px 20px;
+		color: white;
+		background-color: black;
+		text-decoration: none;
+		font-size: 25px;
+		text-align: center;
+	}
+	.navbtn a:hover{
+		background-color: grey;
+	}
+
+	.navbtn a.active{
+		background-color: grey;	
+	}
+
+	aside{
+		background-color: #ffbb33;
+		width: 300px;
+		height: 1000px;
+	}
+
+	.login{
+		margin: 10px;
+	}
+
+	article{
+		background-color: #ffaa00;
+		padding: 20px;
+		opacity: 0.75;
+		font-size: 25px;
+		display: table;
+	}
+
+	article img{
+		float: right;
+		width: 400px;
+	}
