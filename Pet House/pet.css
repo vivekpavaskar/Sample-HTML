@@ -1,64 +1,74 @@
+/* classes*/
+
 .icons{
-		margin-top: 30px;
-		margin-left: 300px;
-		margin-bottom: 10px;
-		height: 200px;
-	}
-	.heading{
-		top: 25px;
-		right: 500px; 
-		position: absolute;
-		font-size: 90px;	
-	}
-	nav{
-		background-color: black;
-		color: white;
-	}
-	.navbtn a{
-		margin: 0px;
-		padding: 0px 20px;
-		color: white;
-		background-color: black;
-		text-decoration: none;
-		font-size: 25px;
-		text-align: center;
-	}
-	.navbtn a:hover{
-		background-color: grey;
-	}
+	top:10%;
+	left: 10%;
+	position: relative;
+	height: 15%;
+	width: 15%;
+}
 
-	.navbtn a.active{
-		background-color: grey;	
-	}
+.heading{
+	top:10%;
+	left: 20%; 
+	position: relative;
+	height: 50%;
+	width: 50%;
+	font-size: 75px;
+}
 
-	aside{
-		background-color: #ffbb33;
-		width: 300px;
-		height: 1000px;
-	}
+.navbtn a{
+	margin: 0px;
+	padding: 0px 20px;
+	color: white;
+	background-color: black;
+	text-decoration: none;
+	font-size: 25px;
+	text-align: center;
+}
+.navbtn a:hover{
+	background-color: grey;
+}
 
-	.login{
-		margin: 10px;
-	}
+.navbtn a.active{
+	background-color: grey;	
+}
 
-	article{
-		background-color: #ffaa00;
-		padding: 20px;
-		opacity: 0.75;
-		font-size: 25px;
-		display: table;
-	}
+.login{
+	margin: 10px;
+}
 
-	article img{
-		float: right;
-		width: 400px;
-	}
+/*tags*/
 
-	footer{
-		background-color: black;
-		color: white;
-	}
+article{
+	background-color: #ffaa00;
+	padding: 20px;
+	opacity: 0.75;
+	font-size: 25px;
+	display: table;
+}
+nav{
+	background-color: black;
+	color: white;
+}
+header{
+	display: flex;
+}
+aside{
+	background-color: #ffbb33;
+	width: 300px;
+	height: 500px;
+}
+article img{
+	float: right;
+	width: 400px;
+}
 
-	body{
-		display: block;
-	}
+footer{
+	background-color: black;
+	color: white;
+}
+
+body{
+	display: block;
+}
