@@ -1,20 +1,13 @@
 /* classes*/
 
 .icons{
-	top:10%;
-	left: 10%;
 	position: relative;
-	height: 15%;
-	width: 15%;
+	height: 5%;
+	width: 5%;
 }
 
 .heading{
-	top:10%;
-	left: 20%; 
-	position: relative;
-	height: 50%;
-	width: 50%;
-	font-size: 75px;
+	margin-left: 10px;
 }
 
 .navbtn a{
@@ -38,17 +31,40 @@
 	margin: 10px;
 }
 
+
+.foot{
+	bottom: 0px;
+	position: sticky;
+	width: 100%;
+}
+
+.twitterlog{
+	width: 300px;
+	height: 650px;
+	position: sticky;
+	top:30px;
+	z-index: -1;
+	float: right;
+}
+
 .sticky{
 	position: sticky;
-	top: 0px;
-	z-index: 1;
+	top: 30px;
+	float: left;
+	width: 300px;
+	height: 600px;
+	background-color: #ffaa00
+}
+
+.sns{
+	max-width: 30px;
 }
 
 /*tags*/
 
 article{
 	background-color: #ffaa00;
-	padding: 20px;
+	padding: 30px;
 	opacity: 0.75;
 	font-size: 25px;
 	display: table;
@@ -56,14 +72,26 @@ article{
 nav{
 	background-color: black;
 	color: white;
+	width: 100%;
+	float: right;
+	height: 27px;
+	margin: auto;
 }
 header{
 	display: flex;
+	position: sticky;
+	top:0px;
+	z-index: 1;
 }
 aside{
 	background-color: #ffbb33;
-	width: 212px;
-	height: 500px;
+
+	width: 300px;
+	height: 600px;
+	position: sticky;
+	top:30px;
+	z-index: -1;
+
 }
 article img{
 	float: right;
@@ -74,7 +102,8 @@ article img{
 footer{
 	background-color: black;
 	color: white;
-	text-align: center;
+	
+	padding-bottom:0px;
 }
 
 body{
@@ -83,5 +112,14 @@ body{
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
+	margin: 0;
 }
 
+a{
+	text-decoration: none;
+	color: white;
+}
+
+hr{
+	margin: 0;
+}
