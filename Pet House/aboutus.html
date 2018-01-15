@@ -6,47 +6,78 @@
 	<link rel="stylesheet" type="text/css" href="pet.css">
 </head>
 <body background="images/dog1.jpg" style="background-attachment: fixed; background-size: 100%">
-	<header><img src="images/dog2.ico" class="icons">
+	<header>
+		<img src="images/dog2.ico" class="icons">
 		<h1 class="heading">Pet House</h1>
+		<nav class="navbtn">
+			<a href="home.html">Home</a>
+			<a class="active" href="aboutus.html">About us</a>
+			<a href="dogs.html">Dogs</a>
+			<a href="cats.html">Cats</a>
+			<a href="birds.html">Birds</a>
+			<a href="aquarium.html">Aquarium</a>
+			
+		</nav>
 	</header>
-	<hr>
-	<nav class="navbtn">
-		<a href="home.html">Home</a>
-		<a href="dogs.html">Dogs</a>
-		<a href="cats.html">Cats</a>
-		<a href="birds.html">Birds</a>
-		<a href="aquarium.html">Aquarium</a>
-		<a class="active" href="aboutus.html">About us</a>
-	</nav>
 	<br>
 	<br>
 	<br>
 
-
-	<aside style="float: left;">
+	<div class="sticky" style="float: left;">
 		<center>
-		<form>
-			<h2>Login for members:</h2>
-			<br>
-			<label class="login" style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User-id:</label>
-			<input class="login" type="text" name="uid" placeholder="asdf@qwe.com" required>
-			<br>
-			<label class="login" style="font-weight: bold;">Password:</label>
-			<input class="login" type="password" name="pass" placeholder="*******" required>
-			<button>Login</button>
-		</form>
+			<form>
+				<h2>Login for members:</h2>
+				<br>
+				<label class="login" style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User-id:</label>
+				<input class="login" type="text" name="uid" placeholder="asdf@qwe.com" required>
+				<br>
+				<label class="login" style="font-weight: bold;">Password:</label>
+				<input class="login" type="password" name="pass" placeholder="*******" required>
+				<button>Login</button>
+			</form>
 		</center>
-	</aside>
 
-	<aside style="float: right;">
-				<center><h3>Advertisement here!!</h3></center>
-	</aside>
-	<center>
-	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15353.608595386931!2d74.50828306708381!3d15.83544738378235!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3b74b44f5b4bc093!2sCareer+Nest+HRC!5e0!3m2!1sen!2sin!4v1515826877342" width="700" height="500" frameborder="0" style="border:5px" allowfullscreen></iframe>
-<div class="foot">
-	<footer>
-		<h4>Developded by Vivek Pavaskar</h4>
-	</footer>
-</div>
+	</div>
+	<div class="sticky" style="float: right;">
+		<a class="twitter-timeline" data-lang="en" data-width="300" data-height="600" data-dnt="true" data-theme="light" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</div>
+	<div>
+		<center>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15353.608595386931!2d74.50828306708381!3d15.83544738378235!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3b74b44f5b4bc093!2sCareer+Nest+HRC!5e0!3m2!1sen!2sin!4v1515826877342" width="900" height="400" frameborder="0" style="border:5px" allowfullscreen></iframe>
+
+			<form style="background-color: white;width: 905px;height: auto;"> 
+				<h3>For any queries and feedback:</h3>
+				<input class="form" type="text" name="name" placeholder="Name" required><br>
+				<input class="form" type="text" name="subject" placeholder="Subject" required><br>
+				<input class="form" type="email" name="email" placeholder="Email" required><br>
+				<input class="form" type="text" name="queries" placeholder="Any Queries" required><br>
+				<input class="form" type="submit" name="submit">
+
+			</form>
+		</center>
+	</div>
+
+	<div class="foot" style="width: 100%;background-color: black;margin: 0">
+		<footer>
+
+			<label>Developed by:Vivek Pavaskar</label><br>
+			<hr>
+			<address>Address: Somwarpeth, Tilakwadi, Belgaum, 590006</address>
+			<address>Contact us: 9876543210</address>
+			<hr>
+			<label>Site map:</label>
+			<a href="home.html">Home</a>
+			<a href="Dogs.html">Dogs</a>
+			<a href="cats.html">Cats</a>
+			<a href="birds.html">Birds</a>
+			<a href="aquarium.html">Aquarium</a>
+			<a href="aboutus.html">About us</a><br>
+			<hr>
+			<label>Our Social website:</label>
+			<a href="https://www.google.com"><img src="images/gplus.png" class="sns"></a>
+			<a href="https://www.facebook.com"><img src="images/logo-facebook.png" class="sns"></a>
+			<a href="https://www.linkedin.com"><img src="images/linkedin-icon.png" class="sns"></a>
+		</footer>
+	</div>
 </body>
 </html>
