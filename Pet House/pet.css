@@ -74,6 +74,7 @@ nav{
 	width: 100%;
 	float: right;
 	height: 27px;
+	margin: auto;
 }
 header{
 	display: flex;
