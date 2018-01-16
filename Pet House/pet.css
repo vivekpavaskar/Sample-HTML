@@ -66,11 +66,10 @@
 .sticky{
 	position: sticky;
 	top: 70px;
-	float: left;
 	width: 300px;
 	height: 600px;
 	background-color: #ffaa00;
-	margin-bottom: 115px;
+	margin-bottom: 72px;
 }
 
 .sns{
