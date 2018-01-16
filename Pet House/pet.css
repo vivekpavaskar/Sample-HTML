@@ -37,7 +37,11 @@
 }
 
 .login{
-	margin: 10px;
+	margin: 10px 0px;
+}
+.login label{
+	 font-weight: bold;
+	 margin-right: 0;
 }
 
 .foot{
@@ -48,6 +52,11 @@
 
 .foot p{
 	padding-left: 30px;
+}
+
+.foot a{
+	text-decoration: none;
+	color: white;
 }
 
 .footdiv{
@@ -148,10 +157,7 @@ body{
 	margin: 0;
 }
 
-a{
-	text-decoration: none;
-	color: white;
-}
+
 
 hr{
 	margin: 0;
