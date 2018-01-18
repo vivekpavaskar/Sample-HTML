@@ -113,7 +113,17 @@
 	visibility: visible;
 }
 
+.slide-container{
+	border: 2px solid red;
+	position: relative;
+	margin: auto;
+	width: 900px;
 
+}
+
+.slide{
+	display: none;
+}
 /*tags*/
 
 article{
