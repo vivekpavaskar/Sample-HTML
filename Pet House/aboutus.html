@@ -4,6 +4,7 @@
 	<title>pethouse.com</title>
 	<link rel="icon" type="images" href="images/dog.ico">
 	<link rel="stylesheet" type="text/css" href="pet.css">
+	<script type="text/javascript" src="pet.js"></script>
 </head>
 <body background="images/dog1.jpg" style="background-attachment: fixed; background-size: 100%">
 	<header>
@@ -25,7 +26,7 @@
 
 	<div class="sticky" style="float: left;">
 		<center>
-			<form>
+			<form name="reg">
 				<h2>Register for new members:</h2>
 				<br>
 				<label class="login"">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name:</label>
@@ -36,8 +37,10 @@
 				<label class="login"">User name:</label>
 				<input class="login" type="text" name="uid" placeholder="abc123" required><br>
 				<label class="login">&nbsp;&nbsp;Password:</label>
-				<input type="password" name="pass" placeholder="******"><br>
-				<button style="margin-top: 10px">Register</button><br>
+				<input class="login" type="password" name="pass" placeholder="******" required><br>
+				<label class="login">Retype-pass:</label>
+				<input class="login" type="password" name="repass" placeholder="******" required><br>
+				<button onclick="checkreg()">Register</button><br>
 				<p>Already a member <a href="home.html">Click here</a></p>
 			</form>
 		</center>
