@@ -7,19 +7,53 @@
 	</script>
 </head>
 <body>
-	<button onclick="showmsg()">Click me!!</button>
-<script type="text/javascript">
+	<span id="btn"><button onclick="showmsg()">Click me!!</button></span>
+	<script type="text/javascript">
 	document.write(--glo);
 	var num="asdas";
 	var b="fdds";
 	var c=num+b;
 	var bool=true;
-	if(bool){
+	if(bool&&true){
 	document.write(c);
-	document.write(2);
+	document.write(2>1);
 }
-//var a[3]={1,2,3};
-//document.write(a[2]);
+var a=[6,5,3,9,8,1];
+for (var x in a) {
+	document.write(a[x]);
+}
+
 </script>
+<p>current date and time:<span id="time"></span>
+<script>
+var t=new Date();
+document.getElementById('time').innerHTML=t;
+</script>
+
+
+
+<br>
+<br>
+<br>
+current time:<span id="ct"></span>
+	<script type="text/javascript">
+	window.onload=function(){getTime();}
+		function getTime() {
+			var to=new Date();
+			var h=to.getHours();
+			var m=to.getMinutes();
+			var s=to.getSeconds();
+			m=check(m);
+			s=check(s);
+			document.getElementById('ct').innerHTML=h+":"+m+":"+s;
+			setTimeout(function(){getTime()},1000);
+		}
+		function check(x) {
+			if(x<10){
+				x="0"+x;
+			}
+			return x;
+		}
+	</script>
 </body>
 </html>
