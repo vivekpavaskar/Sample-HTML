@@ -30,8 +30,26 @@ var t=new Date();
 document.getElementById('time').innerHTML=t;
 </script>
 
-
-
+<button onclick="amsg()" type="button" name="button">alert me</button>
+<script type="text/javascript">
+	function amsg() {
+		setTimeout(
+			function(){
+				alert("welcome")
+			},2000
+		);
+	}
+</script>
+<button type="button" onclick="nh()">next history</button>
+<button type="button" onclick="ph()">prev history</button>
+<script type="text/javascript">
+	function nh() {
+		window.history.forward();
+	}
+	function ph() {
+		window.history.back();
+	}
+</script>
 <br>
 <br>
 <br>
@@ -55,5 +73,50 @@ current time:<span id="ct"></span>
 			return x;
 		}
 	</script>
+
+<script>
+ document.writeln("<br/>navigator.appCodeName: "+navigator.appCodeName);
+ document.writeln("<br/>navigator.appName: "+navigator.appName);
+ document.writeln("<br/>navigator.appVersion: "+navigator.appVersion);
+ document.writeln("<br/>navigator.cookieEnabled: "+navigator.cookieEnabled);
+ document.writeln("<br/>navigator.language: "+navigator.language);
+ document.writeln("<br/>navigator.userAgent: "+navigator.userAgent);
+ document.writeln("<br/>navigator.platform: "+navigator.platform);
+ document.writeln("<br/>navigator.onLine: "+navigator.onLine);
+</script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<script type="text/javascript" >
+ function showcommentform() {
+ var data="Name:<input type='text' name='name'><br>Comment:<br><textarea rows='5' cols='80'></textarea> <br><input type='submit' value='Post Comment'>";
+ document.getElementById('mylocation').innerHTML=data;
+ }
+ </script>
+ <form name="myForm">
+ <input type="button" value="comment" onclick="showcommentform()">
+ <div id="mylocation"></div>
+ </form>
+ <br><br><br><br><br><br><br><br>
+ <form name="f1" >
+ 	Name:<input type="text" name="Name" ><br>
+	Password:<input type="password" name="password" ><br>
+	<input type="submit" onclick="formcheck()">
+ </form>
+ <script type="text/javascript">
+ 	function formcheck() {
+ 		var n=document.f1.Name.value;
+		var p=document.f1.password.value;
+		if(n==null || n==""){
+			alert('Name cannot be empty!!!');
+		}else if (p.length<6) {
+			alert('password is less than 6 character!!!');
+		}
+ 	}
+ </script>
 </body>
 </html>
