@@ -1,4 +1,7 @@
 /* classes*/
+*{
+	box-sizing: border-box;
+}
 
 .icons{
 	float: left;
