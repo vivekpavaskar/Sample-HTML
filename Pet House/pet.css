@@ -80,10 +80,9 @@
 .sticky{
 	position: sticky;
 	top: 70px;
-	width: 19%;
+	width: 20%;
 	height: 600px;
-	background-color: #ffaa00;
-	margin-bottom: 105px;
+	margin-bottom: 0.1%;
 }
 
 .sns{
@@ -140,6 +139,8 @@ height: 100%;
 	color: white;
 	background-color: green;
 	margin: 5px 25%;
+	padding: 5px;
+	border: 0;
 }
 
 .logreg div{
