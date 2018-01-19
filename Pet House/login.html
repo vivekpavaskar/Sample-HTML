@@ -6,6 +6,8 @@
 	<link rel="stylesheet" type="text/css" href="pet.css">
 	<script type="text/javascript" src="pet.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+
 </head>
 <body background="images/dog1.jpg" style="background-attachment: fixed; background-size: 100%">
 	<header>
@@ -26,30 +28,31 @@
 		<br>
 		<br>
 		<div style="width: 100%;padding: 0% 10%;display: flex; margin-bottom: 10%">
-			<div style="background-color: rgba(273,11,15,0.9);width: 50%;height: 500px;padding-top: 10%;margin-right: 3px">
+			<div style="background-color: rgba(273,11,15,0.9);width: 50%;height: 525px;padding-top: 10%;margin-right: 3px">
 				<center>
 				<i style="font-size: 75px;" class="fa">&#xf007;&nbsp;&nbsp;&nbsp;&#xf2c0;</i></center>
 				<h2 style="color: yellow;text-align: center;">Already a member? Login here!!</h2>
 				<form class="logreg" name="login">
-					<span class="glyphicons glyphicons-user"></span>
-					<input type="text" name="uid" placeholder="Username" required>
-					<input type="password" name="pass" placeholder="Password" required>
+					<div><i style="margin-right: 10px;" class="fa">&#xf007;</i>
+					<input type="text" name="uid" placeholder="Username" required></div>
+					<div>
+					<input type="password" name="pass" placeholder="Password" required></div>
 					<button onclick="checklogin()">Login</button>
 				</form>
 			</div>
-			<div style="background-color: rgba(225, 239, 23,0.9);width: 50%;height: 500px;padding-top: 3%;margin-left: 3px">
+			<div style="background-color: rgba(225, 239, 23,0.9);width: 50%;height: 525px;padding-top: 3%;margin-left: 3px">
 				<center>
 				<i style="font-size: 75px;" class="fa">&#xf234;</i></center>
 				<h2 style="text-align: center;">Not a member? Register here!!</h2>
 				<form class="logreg" name="reg">
-					<input type="text" name="name" placeholder="Name" required>
-					<input type="text" name="age" placeholder="Your age" required>
-					<input type="email" name="email" placeholder="Email address" required>
-					<input type="text" name="contact" placeholder="Mobile number" required>
-					<input type="text" name="uid" placeholder="New Username" required>
-					<input type="password" name="pass" placeholder="Password" required>
-					<input type="password" name="repass" placeholder="Retype Password" required>
-					<input type="file" name="profile">
+					<div><input type="text" name="name" placeholder="Name" required></div>
+					<div><input type="date" name="age" placeholder="Your age" required></div>
+					<div><input type="email" name="email" placeholder="Email address" required></div>
+					<div><input type="text" name="contact" placeholder="Mobile number" required></div>
+					<div><input type="text" name="uid" placeholder="New Username" required></div>
+					<div><input type="password" name="pass" placeholder="Password" required></div>
+					<div><input type="password" name="repass" placeholder="Retype Password" required></div>
+					<input style="margin-left: 175px;" type="file" name="profile">
 					<button onclick="checkreg()">Register</button>
 				</div>
 			</div>
