@@ -114,15 +114,27 @@
 }
 
 .slide-container{
-	border: 2px solid red;
 	position: relative;
 	margin: auto;
-	width: 900px;
+	width: 50%;
 
 }
 
 .slide{
 	display: none;
+}
+
+.logreg input{
+width: 80%;	
+margin: 5px 10%;
+}
+
+.logreg button{
+	width:50%;
+	border-radius: 5px;
+	color: white;
+	background-color: green;
+	margin: 5px 25%;
 }
 /*tags*/
 
@@ -152,6 +164,7 @@ header{
 article img{
 	float: right;
 	width: 400px;
+	margin: 5px 10px;
 
 }
 

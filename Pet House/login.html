@@ -12,19 +12,40 @@
 			<h1 class="heading">&nbsp;Pet House</h1></a>
 			<nav class="navbtn">
 				<a href="home.html">Home</a>
-				<a class="active" href="aboutus.html">About us</a>
+				<a href="aboutus.html">About us</a>
 				<a href="Dogs.html">Dogs</a>
 				<a href="cats.html">Cats</a>
 				<a href="birds.html">Birds</a>
 				<a href="aquarium.html">Aquarium</a>
 				<a href="contactus.html">Contact us</a>
-				<a href="login.html">Login</a>
+				<a class="active" href="login.html">Login</a>
 			</nav>
 		</header>
 		<br>
 		<br>
 		<br>
-
+<div style="width: 100%;padding: 0% 10%;display: flex; margin-bottom: 10%">
+	<div style="background-color: rgba(273,11,15,0.9);width: 50%;height: 500px;padding-top: 10%;margin-right: 3px">
+		<h2 style="color: yellow;text-align: center;">Already a member? Login here!!</h2>
+		<form class="logreg" name="login">
+			<input type="text" name="uid" placeholder="Username" required>
+			<input type="password" name="pass" placeholder="Password" required>
+			<button>Login</button>
+		</form>
+	</div>
+	<div style="background-color: rgba(225, 239, 23,0.9);width: 50%;height: 500px;padding-top: 5%;margin-left: 3px">
+		<h2 style="text-align: center;">Not a member? Register here!!</h2>
+		<form class="logreg" name="reg">
+			<input type="text" name="name" placeholder="Name" required>
+			<input type="text" name="age" placeholder="Your age" required>
+			<input type="email" name="email" placeholder="Email address" required>
+			<input type="text" name="contact" placeholder="Mobile number" required>
+			<input type="text" name="uid" placeholder="New Username" required>
+			<input type="password" name="pass" placeholder="Password" required>
+			<input type="password" name="repass" placeholder="Retype Password" required>
+			<button>Register</button>
+	</div>
+</div>
 
 		
 <div class="foot" style="width: 100%;background-color: black;margin: 0">
