@@ -45,9 +45,8 @@ function checkreg(){
 var si=0;
 				slideshows();
 				function slideshows() {
-					var i;
 					var s=document.getElementsByClassName("slide");
-					for (i = 0; i < s.length; i++) {
+					for (var i = 0; i < s.length; i++) {
 						s[i].style.display="none";
 					}
 					si++;
