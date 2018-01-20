@@ -54,5 +54,3 @@ var si=0;
 						s[si-1].style.display="block";
 					setTimeout(slideshows,2000);
 				}
-
-
