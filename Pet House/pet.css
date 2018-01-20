@@ -10,26 +10,26 @@
 }
 
 .heading{
-	margin-top: 20px;
-	margin-left: 10px;
-	margin-right: 0;
+	float: right;
+	margin-top: 19px;
 	margin-bottom: 0;
-	height: 200px;
-	width: 300px;
+	height: 100%;
+	width: 70%;
 	color: white;
 }
 
 .navbtn{
+	display: inline-block;
 	background-color: black;
 }
 .navbtn a{
-	margin: 0px;
-	padding: 20px 20px;
+	margin: 0%;
+	padding: 2% 2%;
 	color: white;
-	background-color: black;
 	text-decoration: none;
 	font-size: 25px;
 	text-align: center;
+	width: 10%;
 }
 .navbtn a:hover{
 	background-color: grey;
@@ -192,7 +192,7 @@ margin: auto;
 	margin: 50px 0px;
 	border-radius: 20px;
 }
-.feed input,button{
+.feed input,.feed button{
 	width: 75%;
 	height: 27px;
 	margin: 6px 0;
@@ -217,7 +217,7 @@ nav{
 	color: white;
 	width: 100%;
 	float: right;
-	height: 28px;
+	height: 0.1%;
 	margin: auto;
 }
 header{
@@ -225,8 +225,12 @@ header{
 	position: sticky;
 	top:0px;
 	z-index: 1;
-	height: 70px;
+	height: 10%;
+	width: 100%;
 	background-color: black;
+}
+header a{
+	width: 25%;
 }
 
 article img{
