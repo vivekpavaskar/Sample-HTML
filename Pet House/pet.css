@@ -89,11 +89,6 @@
 	max-width: 30px;
 }
 
-.form{
-	width: 699px;
-	height: 30px;
-}
-
 .tooltip{
 	position: relative;
 	display: inline-block;
@@ -187,6 +182,27 @@ margin: auto;
 .close:hover{
 	color: black;
 	cursor: pointer;
+}
+
+.feed{
+	padding-top: 5px;
+	background-color: white;
+	width: 70%;
+	height: 300px;
+	margin: 50px 0px;
+	border-radius: 20px;
+}
+.feed input,button{
+	width: 75%;
+	height: 27px;
+	margin: 6px 0;
+	border-radius: 5px;
+	border: 1px solid black;
+
+}
+.feed button{
+	background-color: green;
+	color: white;
 }
 /*tags*/
 
