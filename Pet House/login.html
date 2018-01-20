@@ -1,89 +1,101 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>pethouse.com</title>
-	<link rel="icon" type="images" href="images/dog.ico">
-	<link rel="stylesheet" type="text/css" href="pet.css">
-	<script type="text/javascript" src="pet.js"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
+    <title>pethouse.com</title>
+    <link rel="icon" type="images" href="images/dog.ico">
+    <link rel="stylesheet" type="text/css" href="pet.css">
+    <script type="text/javascript" src="pet.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 </head>
 <body background="images/dog1.jpg" style="background-attachment: fixed; background-size: 100%">
-	<header>
-		<a href="home.html" style="text-decoration: none;"><abbr title="Go to home page"><img src="images/dog2.ico" class="icons">
-			<h1 class="heading">&nbsp;Pet House</h1></abbr></a>
-			<nav class="navbtn">
-				<a href="home.html">Home</a>
-				<a href="aboutus.html">About us</a>
-				<a href="Dogs.html">Dogs</a>
-				<a href="cats.html">Cats</a>
-				<a href="birds.html">Birds</a>
-				<a href="aquarium.html">Aquarium</a>
-				<a href="contactus.html">Contact us</a>
-				<a class="active" href="login.html">Login</a>
-			</nav>
-		</header>
-		<br>
-		<br>
-		<br>
-		<div style="width: 100%;padding: 0% 10%;display: flex; margin-bottom: 10%">
-			<div style="background-color: rgba(273,11,15,0.9);width: 50%;height: 525px;padding-top: 10%;margin-right: 3px;border-radius: 20px">
-				<center>
-				<i style="font-size: 75px;" class="fa">&#xf007;&nbsp;&nbsp;&nbsp;&#xf2c0;</i></center>
-				<h2 style="color: yellow;text-align: center;">Already a member? Login here!!</h2>
-				<form class="logreg" name="login">
-					<div><i style="margin-right: 10px;" class="fa">&#xf007;</i>
-					<input type="text" name="uid" placeholder="Username" required></div>
-					<div><i style="margin-right: 10px;" class="fa">&#xf084;</i>
-					<input type="password" name="pass" placeholder="Password" required></div>
-					<button onclick="checklogin()">Login</button>
-				</form>
-			</div>
-			<div style="background-color: rgba(225, 239, 23,0.9);width: 50%;height: 525px;padding-top: 3%;margin-left: 3px;border-radius: 20px;">
-				<center>
-				<i style="font-size: 75px;" class="fa">&#xf234;</i></center>
-				<h2 style="text-align: center;">Not a member? Register here!!</h2>
-				<form class="logreg" name="reg">
-					<div><i style="margin-right: 10px;" class="fa">&#xf2be;</i><input type="text" name="name" placeholder="Name" required></div>
-					<div><i style="margin-right: 10px;" class="fa">&#xf073;</i><input type="date" name="age" placeholder="Your age" required></div>
-					<div><i style="margin-right: 10px;" class="fa">&#xf1fa;</i><input type="email" name="email" placeholder="Email address" required></div>
-					<div><i style="margin-right: 10px;" class="fa"> &#xf10b;</i><input type="text" name="contact" placeholder="Mobile number" required></div>
-					<div><i style="margin-right: 10px;" class="fa">&#xf007;</i><input type="text" name="uid" placeholder="New Username" required></div>
-					<div><i style="margin-right: 10px;" class="fa">&#xf084;</i><input type="password" name="pass" placeholder="Password" required></div>
-					<div><i style="margin-right: 10px;" class="fa">&#xf084;</i><input type="password" name="repass" placeholder="Retype Password" required></div>
-					<div>Profile photo:<i style="margin-right: 10px;" class="fa">&#xf1c5;</i><input type="file" name="profile"></div>
-					<button onclick="checkreg()">Register</button>
-				</div>
-			</div>
+<header>
+    <a href="home.html" style="text-decoration: none;"><abbr title="Go to home page"><img src="images/dog2.ico"
+                                                                                          class="icons">
+        <h1 class="heading">&nbsp;Pet House</h1></abbr></a>
+    <nav class="navbtn">
+        <a href="home.html">Home</a>
+        <a href="aboutus.html">About us</a>
+        <a href="Dogs.html">Dogs</a>
+        <a href="cats.html">Cats</a>
+        <a href="birds.html">Birds</a>
+        <a href="aquarium.html">Aquarium</a>
+        <a href="contactus.html">Contact us</a>
+        <a class="active" href="login.html">Login</a>
+    </nav>
+</header>
+<br>
+<br>
+<br>
+<div style="width: 100%;padding: 0% 10%;display: flex; margin-bottom: 10%">
+    <div style="background-color: rgba(273,11,15,0.9);width: 50%;height: 525px;padding-top: 10%;margin-right: 3px;border-radius: 20px">
+        <center>
+            <i style="font-size: 75px;" class="fa">&#xf007;&nbsp;&nbsp;&nbsp;&#xf2c0;</i></center>
+        <h2 style="color: yellow;text-align: center;">Already a member? Login here!!</h2>
+        <form class="logreg" name="login">
+            <div><i style="margin-right: 10px;" class="fa">&#xf007;</i>
+                <input type="text" name="uid" placeholder="Username" required></div>
+            <div><i style="margin-right: 10px;" class="fa">&#xf084;</i>
+                <input type="password" name="pass" placeholder="Password" required></div>
+            <button onclick="checklogin()">Login</button>
+        </form>
+    </div>
+    <div style="background-color: rgba(225, 239, 23,0.9);width: 50%;height: 525px;padding-top: 3%;margin-left: 3px;border-radius: 20px;">
+        <center>
+            <i style="font-size: 75px;" class="fa">&#xf234;</i></center>
+        <h2 style="text-align: center;">Not a member? Register here!!</h2>
+        <form class="logreg" name="reg">
+            <div><i style="margin-right: 10px;" class="fa">&#xf2be;</i><input type="text" name="name" placeholder="Name"
+                                                                              required></div>
+            <div><i style="margin-right: 10px;" class="fa">&#xf073;</i><input type="date" name="age"
+                                                                              placeholder="Your age" required></div>
+            <div><i style="margin-right: 10px;" class="fa">&#xf1fa;</i><input type="email" name="email"
+                                                                              placeholder="Email address" required>
+            </div>
+            <div><i style="margin-right: 10px;" class="fa"> &#xf10b;</i><input type="text" name="contact"
+                                                                               placeholder="Mobile number" required>
+            </div>
+            <div><i style="margin-right: 10px;" class="fa">&#xf007;</i><input type="text" name="uid"
+                                                                              placeholder="New Username" required></div>
+            <div><i style="margin-right: 10px;" class="fa">&#xf084;</i><input type="password" name="pass"
+                                                                              placeholder="Password" required></div>
+            <div><i style="margin-right: 10px;" class="fa">&#xf084;</i><input type="password" name="repass"
+                                                                              placeholder="Retype Password" required>
+            </div>
+            <div>Profile photo:<i style="margin-right: 10px;" class="fa">&#xf1c5;</i><input type="file" name="profile">
+            </div>
+            <button onclick="checkreg()">Register</button>
+    </div>
+</div>
 
 
-			<div class="foot" style="width: 100%;background-color: black;margin: 0">
-				<footer>
-					<div class="footdiv" style="width: 23%">
-						<p><font style="color: #3399ff">Developed by:</font><br>Vivek Pavaskar</p>
-					</div>
-					<div class="footdiv" style="width: 30%">
-						<p><font style="color: #3399ff">Address:</font><br> Somwarpeth, Tilakwadi, Belgaum, 590006<br>
-						Contact us: 9876543210</p>
-					</div>
-					<div class="footdiv" style="width: 25%">
-						<p><font style="color: #3399ff">Site map:</font><br>
-							<a href="home.html">Home</a>&nbsp;&nbsp;&nbsp;|
-							<a href="aboutus.html">About us</a><br>
-							<a href="Dogs.html">Dogs</a>&nbsp;&nbsp;&nbsp;&nbsp;|
-							<a href="cats.html">Cats</a><br>
-							<a href="birds.html">Birds</a>&nbsp;&nbsp;&nbsp;&nbsp;|
-							<a href="aquarium.html">Aquarium</a>
-						</p>
-					</div>
-					<div class="footdiv" style="width: 20%">
-						<p><font style="color: #3399ff">Our Social website:</font><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-							<a href="https://www.google.com"><img src="images/gplus.png" class="sns"></a>
-							<a href="https://www.facebook.com"><img src="images/logo-facebook.png" class="sns"></a>
-							<a href="https://www.linkedin.com"><img src="images/linkedin-icon.png" class="sns"></a></p>
-						</div>
-					</footer>
-				</div>
-			</body>
-			</html>
+<div class="foot" style="width: 100%;background-color: black;margin: 0">
+    <footer>
+        <div class="footdiv" style="width: 23%">
+            <p><font style="color: #3399ff">Developed by:</font><br>Vivek Pavaskar</p>
+        </div>
+        <div class="footdiv" style="width: 30%">
+            <p><font style="color: #3399ff">Address:</font><br> Somwarpeth, Tilakwadi, Belgaum, 590006<br>
+                Contact us: 9876543210</p>
+        </div>
+        <div class="footdiv" style="width: 25%">
+            <p><font style="color: #3399ff">Site map:</font><br>
+                <a href="home.html">Home</a>&nbsp;&nbsp;&nbsp;|
+                <a href="aboutus.html">About us</a><br>
+                <a href="Dogs.html">Dogs</a>&nbsp;&nbsp;&nbsp;&nbsp;|
+                <a href="cats.html">Cats</a><br>
+                <a href="birds.html">Birds</a>&nbsp;&nbsp;&nbsp;&nbsp;|
+                <a href="aquarium.html">Aquarium</a>
+            </p>
+        </div>
+        <div class="footdiv" style="width: 20%">
+            <p><font style="color: #3399ff">Our Social website:</font><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.google.com"><img src="images/gplus.png" class="sns"></a>
+                <a href="https://www.facebook.com"><img src="images/logo-facebook.png" class="sns"></a>
+                <a href="https://www.linkedin.com"><img src="images/linkedin-icon.png" class="sns"></a></p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
