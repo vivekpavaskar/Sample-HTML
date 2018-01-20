@@ -10,27 +10,35 @@
 }
 
 .heading{
-	float: right;
+	float: left;
 	margin-top: 19px;
 	margin-bottom: 0;
 	height: 100%;
-	width: 70%;
+	width: 17%;
 	color: white;
 }
 
 .navbtn{
+	width: 70%;
+	position: relative;
+	float: left;
 	display: inline-block;
 	background-color: black;
-	min-width: 700px;
+	height: 100%;
+	padding: 20px 0px;
 }
+
+
 .navbtn a{
-	margin: 0%;
-	padding: 2% 2%;
+	width: 50%;
+	height: 100%;
 	color: white;
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 150%;
 	text-align: center;
 	width: 10%;
+	padding: 1% 2%;
+	vertical-align: middle;
 }
 .navbtn a:hover{
 	background-color: grey;
@@ -45,7 +53,7 @@
 }
 
 .login label{
-	 font-weight: bold;
+	font-weight: bold;
 }
 
 .foot{
@@ -120,11 +128,11 @@
 }
 
 .logreg input{
-width: 80%;
-border: none;
-margin-left: 10px;
-width: 100%;
-height: 100%;
+	width: 80%;
+	border: none;
+	margin-left: 10px;
+	width: 100%;
+	height: 100%;
 	margin: 0;
 	outline: 0;
 }
@@ -158,31 +166,41 @@ height: 100%;
 	padding: 10% 20%;
 }
 .modal-content{
-background-color: white;
-border-radius: 20px;
-width: 100%;
-height: 100%;
-margin: auto;
+	background-color: rgb(237, 167, 75);
+	border-radius: 20px;
+	width: 100%;
+	height: 80%;
+	margin: auto;
 }
 .modal-content h1{
 	text-align: center;
 	padding: 20px;
 }
-.modal-content input[type=email],button{
+.modal-content input[type=email],.modal-content button{
 	width: 75%;
 	margin: 10px 12.5%;
-	height: 20px;
+	height: 30px;
+	border-radius: 5px;
+	border: 0;
+}
+.modal-content button{
+	background-color: green;
+	color: white;
 }
 .close{
-	font-size: 40px;
+	font-size: 25px;
 	float: right;
+	margin-top: 10px;
 	margin-right: 20px;
 	padding: 0;
 	color: grey;
+	border: 2px solid grey;
 }
 .close:hover{
-	color: black;
+	color: yellow;
 	cursor: pointer;
+	border: 2px solid red;
+	background-color: red;
 }
 
 .feed{
@@ -220,13 +238,14 @@ article{
 nav{
 	background-color: black;
 	color: white;
-	width: 100%;
+	width: 75%;
 	float: right;
 	height: 0.1%;
 	margin: auto;
+	display: block;
 }
 header{
-	display: flex;
+	display: inline-block;
 	position: sticky;
 	top:0px;
 	z-index: 1;
