@@ -1,0 +1,32 @@
+/*
+======================================================================
+tag class
+======================================================================
+*/
+div{
+    border: 1px solid red;
+}
+
+nav{
+    font-size: xx-large;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+header{
+    background-color: #5bc0de;
+}
+/*
+======================================================================
+Custom class
+======================================================================
+ */
+.navbtn a{
+    text-decoration: none;
+    padding: 1%;
+    margin: 0px;
+}
+
+.navbtn a:hover{
+    background-color: #1b6d85;
+    color: white;
+}
